@@ -30,7 +30,7 @@ public class SessionManager {
 ```
 
 #### Use Session
-```J=java
+```java
 public class MainActivity extends AppCompatActivity {
 
     private SessionManager mSessionManager;
