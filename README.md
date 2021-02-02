@@ -13,7 +13,7 @@ public class SessionManager {
         mSharedPreferences = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);
     }
 
-    public void setIdAntrian(String id) {
+    public void setId(String id) {
         mEditor = mSharedPreferences.edit();
         mEditor.putString(KEY_ID, id).apply();
     }
